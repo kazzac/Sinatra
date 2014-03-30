@@ -1,0 +1,14 @@
+MySQL:データベースを作成
+
+create database sinatra_bbs
+use sinatra_bbs
+
+MySQL:テーブルを作成
+
+create table tweets(
+id int not null auto_increment,
+entry text not null,
+primary key(id)
+);
+
+Terminal:
